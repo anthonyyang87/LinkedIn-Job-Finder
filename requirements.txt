@@ -3,4 +3,7 @@ pdfplumber
 pandas
 numpy
 openpyxl
-
+google-generativeai
+python-dotenv
+configparser
+linkedin-api

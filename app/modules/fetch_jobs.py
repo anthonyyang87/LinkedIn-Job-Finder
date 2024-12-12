@@ -1,5 +1,4 @@
 #use linkedIn API to fetch jobs
-import requests
 import json
 import os
 from dotenv import load_dotenv
