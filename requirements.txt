@@ -1,0 +1,6 @@
+#only include the libraries used in the project
+pdfplumber
+pandas
+numpy
+openpyxl
+

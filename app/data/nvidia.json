@@ -1,0 +1,1354 @@
+{
+  "staffingCompany": false,
+  "companyIndustries": [
+    {
+      "localizedName": "Computer Hardware Manufacturing",
+      "entityUrn": "urn:li:fs_industry:3"
+    }
+  ],
+  "callToAction": {
+    "callToActionType": "VIEW_WEBSITE",
+    "visible": true,
+    "callToActionMessage": {
+      "textDirection": "USER_LOCALE",
+      "text": "Visit website"
+    },
+    "url": "https://www.nvidia.com"
+  },
+  "staffCount": 35921,
+  "adsRule": "REDUCED",
+  "companyEmployeesSearchPageUrl": "https://www.linkedin.com/vsearch/p?f_CC=3608",
+  "viewerFollowingJobsUpdates": false,
+  "staffCountRange": {
+    "start": 10001
+  },
+  "permissions": {
+    "landingPageAdmin": false,
+    "admin": false,
+    "adAccountHolder": false
+  },
+  "logo": {
+    "image": {
+      "com.linkedin.common.VectorImage": {
+        "artifacts": [
+          {
+            "width": 200,
+            "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1724879902635/nvidia_logo?e=1741824000&v=beta&t=zn58qcrNm3CT0Bg4-MTmkdQ6NBi32F5Ewk8lKmERVDc",
+            "expiresAt": 1741824000000,
+            "height": 200
+          },
+          {
+            "width": 100,
+            "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1724879902635/nvidia_logo?e=1741824000&v=beta&t=zU7sEdhBhuC4S1FiUy8DVchb9fyfHyLY-J3hhR86Q3k",
+            "expiresAt": 1741824000000,
+            "height": 100
+          },
+          {
+            "width": 400,
+            "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1724879902635/nvidia_logo?e=1741824000&v=beta&t=CrIn9V9GIPCgszJxnjIJqopAJSVzC33f2Rbuyt0ti3c",
+            "expiresAt": 1741824000000,
+            "height": 400
+          }
+        ],
+        "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQH7YExLMK6L2Q/company-logo_"
+      }
+    },
+    "type": "SQUARE_LOGO"
+  },
+  "claimable": false,
+  "specialities": [
+    "GPU-accelerated computing",
+    "artificial intelligence",
+    "deep learning",
+    "virtual reality",
+    "gaming",
+    "self-driving cars",
+    "supercomputing",
+    "robotics",
+    "virtualization",
+    "parallel computing",
+    "professional graphics",
+    "automotive technology"
+  ],
+  "confirmedLocations": [
+    {
+      "country": "US",
+      "geographicArea": "CA",
+      "city": "Santa Clara",
+      "postalCode": "95050",
+      "streetAddressOptOut": false,
+      "headquarter": true,
+      "line1": "2701 San Tomas Expressway"
+    },
+    {
+      "country": "TW",
+      "geographicArea": "Taipei City",
+      "city": "Taipei City",
+      "postalCode": "114",
+      "description": "NVIDIA BVI Holdings Limited, Taiwan Branch",
+      "streetAddressOptOut": false,
+      "headquarter": false,
+      "line1": "No. 8, Ji Hu Rd."
+    },
+    {
+      "country": "IN",
+      "geographicArea": "Telangana",
+      "city": "Hyderabad",
+      "postalCode": "500046",
+      "description": "NVIDIA Graphics Pvt. Ltd.",
+      "streetAddressOptOut": false,
+      "headquarter": false,
+      "line2": "Plot # 6A&B, IT Park Layout, RR District",
+      "line1": "Nanakramguda, Serilingampally Mandal"
+    },
+    {
+      "country": "IN",
+      "geographicArea": "Village Chakala, Andheri East",
+      "city": "Mumbai",
+      "postalCode": "400 093",
+      "description": "NVIDIA Graphics Pvt. Ltd. ",
+      "streetAddressOptOut": false,
+      "headquarter": false,
+      "line2": "CNB Square",
+      "line1": "No. 127 Andheri Kurla Road"
+    },
+    {
+      "country": "IN",
+      "geographicArea": "Yerwada",
+      "city": "Pune",
+      "postalCode": "411 006",
+      "description": "Commerzone, Building No. 5",
+      "streetAddressOptOut": false,
+      "headquarter": false,
+      "line2": "Off Airport Road",
+      "line1": "Survey No. 144/145, Samrat Ashok Path"
+    },
+    {
+      "country": "JP",
+      "geographicArea": "Minato-ku",
+      "city": "Tokyo",
+      "postalCode": "107-0052",
+      "description": "ATT New Tower ",
+      "streetAddressOptOut": false,
+      "headquarter": false,
+      "line2": " 13th Floor",
+      "line1": "2-11-7 Akasaka"
+    }
+  ],
+  "followingInfo": {
+    "entityUrn": "urn:li:fs_followingInfo:urn:li:company:3608",
+    "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:3608",
+    "following": true,
+    "followingType": "FOLLOWING",
+    "followerCount": 3007135
+  },
+  "viewerEmployee": false,
+  "affiliatedCompaniesWithEmployeesRollup": [],
+  "lcpTreatment": true,
+  "affiliatedCompaniesWithJobsRollup": [],
+  "associatedHashtagsResolutionResults": {
+    "urn:li:fs_contentTopicData:urn:li:hashtag:ai": {
+      "feedTopic": {
+        "topic": {
+          "trending": false,
+          "name": "#ai",
+          "useCase": "HASHTAG_FEED",
+          "recommendationTrackingId": "g?\u00cc\u00df\u00f9\u00f6G\u00a4\u00b2M\u00ba\u0000\u0091\u00ce\u0087\u00b9",
+          "backendUrn": "urn:li:hashtag:ai"
+        },
+        "tracking": {
+          "trackingId": "Zz/M3/n2R6SyTboAkc6HuQ=="
+        },
+        "entityUrn": "urn:li:fs_feedTopic:(urn:li:hashtag:ai,HASHTAG_FEED)"
+      },
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebContentTopicDataCard",
+      "entityUrn": "urn:li:fs_contentTopicData:urn:li:hashtag:ai",
+      "followAction": {
+        "followingInfo": {
+          "followingType": "DEFAULT",
+          "entityUrn": "urn:li:fs_followingInfo:urn:li:hashtag:ai",
+          "followerCount": 644256,
+          "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_hashtag:(ai,urn:li:activity:-)",
+          "following": false,
+          "trackingUrn": "urn:li:hashtag:ai"
+        },
+        "unfollowTrackingActionType": "unfollowTopic",
+        "followTrackingActionType": "followTopic",
+        "type": "FOLLOW_TOGGLE",
+        "trackingActionType": "followTopic"
+      }
+    },
+    "urn:li:fs_contentTopicData:urn:li:hashtag:gpu": {
+      "feedTopic": {
+        "topic": {
+          "trending": false,
+          "name": "#gpu",
+          "useCase": "HASHTAG_FEED",
+          "recommendationTrackingId": "\u00de]([\u00c7\u00a5O\u00e9\u0097\u00eb_!\u00f8x\u00992",
+          "backendUrn": "urn:li:hashtag:gpu"
+        },
+        "tracking": {
+          "trackingId": "3l0oW8elT+mX618h+HiZMg=="
+        },
+        "entityUrn": "urn:li:fs_feedTopic:(urn:li:hashtag:gpu,HASHTAG_FEED)"
+      },
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebContentTopicDataCard",
+      "entityUrn": "urn:li:fs_contentTopicData:urn:li:hashtag:gpu",
+      "followAction": {
+        "followingInfo": {
+          "followingType": "DEFAULT",
+          "entityUrn": "urn:li:fs_followingInfo:urn:li:hashtag:gpu",
+          "followerCount": 1386,
+          "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_hashtag:(gpu,urn:li:activity:-)",
+          "following": false,
+          "trackingUrn": "urn:li:hashtag:gpu"
+        },
+        "unfollowTrackingActionType": "unfollowTopic",
+        "followTrackingActionType": "followTopic",
+        "type": "FOLLOW_TOGGLE",
+        "trackingActionType": "followTopic"
+      }
+    },
+    "urn:li:fs_contentTopicData:urn:li:hashtag:deeplearning": {
+      "feedTopic": {
+        "topic": {
+          "trending": false,
+          "name": "#deeplearning",
+          "useCase": "HASHTAG_FEED",
+          "recommendationTrackingId": "\u0094\u009f\u00b3\u0003\u00fd\u00e5@\u0096\u00a4\u00c9\u0092H\u00a5w:O",
+          "backendUrn": "urn:li:hashtag:deeplearning"
+        },
+        "tracking": {
+          "trackingId": "lJ+zA/3lQJakyZJIpXc6Tw=="
+        },
+        "entityUrn": "urn:li:fs_feedTopic:(urn:li:hashtag:deeplearning,HASHTAG_FEED)"
+      },
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebContentTopicDataCard",
+      "entityUrn": "urn:li:fs_contentTopicData:urn:li:hashtag:deeplearning",
+      "followAction": {
+        "followingInfo": {
+          "followingType": "DEFAULT",
+          "entityUrn": "urn:li:fs_followingInfo:urn:li:hashtag:deeplearning",
+          "followerCount": 890948,
+          "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_hashtag:(deeplearning,urn:li:activity:-)",
+          "following": false,
+          "trackingUrn": "urn:li:hashtag:deeplearning"
+        },
+        "unfollowTrackingActionType": "unfollowTopic",
+        "followTrackingActionType": "followTopic",
+        "type": "FOLLOW_TOGGLE",
+        "trackingActionType": "followTopic"
+      }
+    }
+  },
+  "name": "NVIDIA",
+  "tagline": "",
+  "$recipeType": "com.linkedin.voyager.deco.organization.web.WebFullCompanyMain",
+  "fundingData": {
+    "fundingRoundListCrunchbaseUrl": "https://www.crunchbase.com/organization/nvidia/funding_rounds/funding_rounds_list?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=all_fundings",
+    "lastFundingRound": {
+      "investorsCrunchbaseUrl": "https://www.crunchbase.com/funding_round/nvidia-grant--2cb62222?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=all_investors",
+      "leadInvestors": [
+        {
+          "name": {
+            "text": "ARPA-E"
+          },
+          "investorCrunchbaseUrl": "https://www.crunchbase.com/organization/arpa-e?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=investor",
+          "image": {
+            "attributes": [
+              {
+                "sourceType": "URL",
+                "imageUrl": "https://media.licdn.com/dms/image/sync/v2/D4D38AQHT-wl9wK-iBg/crunchbase_investor_logo_100/crunchbase_investor_logo_100/0/1732730364469?e=1734516000&v=beta&t=eAILHFnMqL7jEJp7yIsU1pWVOsMmSC6QsrytcM0scAs"
+              }
+            ]
+          }
+        }
+      ],
+      "fundingRoundCrunchbaseUrl": "https://www.crunchbase.com/funding_round/nvidia-grant--2cb62222?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=last_funding",
+      "fundingType": "GRANT",
+      "moneyRaised": {
+        "currencyCode": "USD",
+        "amount": "5000000"
+      },
+      "numOtherInvestors": 0,
+      "announcedOn": {
+        "month": 5,
+        "day": 9,
+        "year": 2023
+      }
+    },
+    "companyCrunchbaseUrl": "https://www.crunchbase.com/organization/nvidia?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=profile_cta",
+    "numFundingRounds": 7,
+    "updatedAt": 1728355305
+  },
+  "overviewPhoto": {
+    "com.linkedin.voyager.common.MediaProcessorImage": {
+      "id": "/AAEAAQAAAAAAAAebAAAAJGMzMjBhOWUwLTMxZmUtNDBjZS1iZjUxLTZkZjE3NzdkZjlmYw.png"
+    }
+  },
+  "multiLocaleTaglines": {
+    "localized": {
+      "en_US": ""
+    },
+    "preferredLocale": {
+      "country": "US",
+      "language": "en"
+    }
+  },
+  "description": "Since its founding in 1993, NVIDIA (NASDAQ: NVDA) has been a pioneer in accelerated computing. The company\u2019s invention of the GPU in 1999 sparked the growth of the PC gaming market, redefined computer graphics, ignited the era of modern AI and is fueling the creation of the metaverse. NVIDIA is now a full-stack computing company with data-center-scale offerings that are reshaping industry.",
+  "entityUrn": "urn:li:fs_normalized_company:3608",
+  "headquarter": {
+    "country": "US",
+    "geographicArea": "CA",
+    "city": "Santa Clara",
+    "postalCode": "95050",
+    "line1": "2701 San Tomas Expressway"
+  },
+  "showcasePagesResolutionResults": {
+    "urn:li:fs_normalized_company:42447607": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:42447607",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:42447607",
+        "following": false,
+        "followingType": "DEFAULT",
+        "followerCount": 6787
+      },
+      "description": "La invenci\u00f3n de la GPU por parte de NVIDIA en 1999 provoc\u00f3 el crecimiento del mercado de juegos de PC, redefini\u00f3 los modernos gr\u00e1ficos de computadora y revolucion\u00f3 la computaci\u00f3n paralela. M\u00e1s recientemente, el aprendizaje profundo de GPU encendi\u00f3 la inteligencia artificial moderna, la pr\u00f3xima era de la inform\u00e1tica, con la GPU actuando como el cerebro de las computadoras, los robots y los autom\u00f3viles aut\u00f3nomos que pueden percibir y comprender el mundo. Hoy, NVIDIA es cada vez m\u00e1s conocida como \"la compa\u00f1\u00eda de computaci\u00f3n de IA\".",
+      "companyIndustries": [
+        {
+          "localizedName": "Computer Hardware Manufacturing",
+          "entityUrn": "urn:li:fs_industry:3"
+        }
+      ],
+      "url": "https://www.linkedin.com/showcase/nvidia-latinoamerica/",
+      "entityUrn": "urn:li:fs_normalized_company:42447607",
+      "name": "NVIDIA Latinoam\u00e9rica",
+      "logo": {
+        "image": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1724882560458/nvidia_latinoamerica_logo?e=1741824000&v=beta&t=8BgCq4Za23xWG7B2K58iDp94NqPeAN0cleQAeYJ60xA",
+                "expiresAt": 1741824000000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1724882560458/nvidia_latinoamerica_logo?e=1741824000&v=beta&t=SAHvp2ZnMJU7-SY7HZ_MVBwsGb87ctGjBRiUWtZVfYE",
+                "expiresAt": 1741824000000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1724882560458/nvidia_latinoamerica_logo?e=1741824000&v=beta&t=_bKxf3LM-w3q7HF8jQieBpk96BeaKWSj35r2lxLjvxc",
+                "expiresAt": 1741824000000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQFeqWOZGsZUJA/company-logo_"
+          }
+        },
+        "type": "SQUARE_LOGO"
+      },
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "nvidia-latinoamerica"
+    },
+    "urn:li:fs_normalized_company:3761136": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:3761136",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:3761136",
+        "following": false,
+        "followingType": "DEFAULT",
+        "followerCount": 73463
+      },
+      "description": "NVIDIA\u2019s Design and Visualization platform gives artists, designers, engineers and developers the power to realize their vision. From innovative product development to immersive story-telling to reimagining the cities of the future, NVIDIA works with you to do it better and faster.",
+      "companyIndustries": [
+        {
+          "localizedName": "Design Services",
+          "entityUrn": "urn:li:fs_industry:99"
+        }
+      ],
+      "url": "https://www.linkedin.com/showcase/nvidia-design-and-visualization/",
+      "entityUrn": "urn:li:fs_normalized_company:3761136",
+      "name": "NVIDIA Design and Visualization",
+      "logo": {
+        "image": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1724882274658/nvidia_design_and_visualization_logo?e=1741824000&v=beta&t=-gRPGiEKeqbWwDFuB0nLPo0qjyBIRknNBe9pAF3WEP8",
+                "expiresAt": 1741824000000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1724882274658/nvidia_design_and_visualization_logo?e=1741824000&v=beta&t=Kb1L3SsaIX2wBA3vbI9OK585ScC0d6BTm610jgOND8w",
+                "expiresAt": 1741824000000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1724882274658/nvidia_design_and_visualization_logo?e=1741824000&v=beta&t=aOaCtJiIdUVgQo3iK201djOjrfJuf19_KHTayD681vQ",
+                "expiresAt": 1741824000000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQGuQYx-kgx3bA/company-logo_"
+          }
+        },
+        "type": "SQUARE_LOGO"
+      },
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "nvidia-design-and-visualization"
+    },
+    "urn:li:fs_normalized_company:42446849": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:42446849",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:42446849",
+        "following": false,
+        "followingType": "DEFAULT",
+        "followerCount": 1823
+      },
+      "url": "https://www.linkedin.com/showcase/nvidia-brasil/",
+      "entityUrn": "urn:li:fs_normalized_company:42446849",
+      "name": "NVIDIA Brasil",
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "nvidia-brasil"
+    },
+    "urn:li:fs_normalized_company:18094797": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:18094797",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:18094797",
+        "following": false,
+        "followingType": "DEFAULT",
+        "followerCount": 54993
+      },
+      "description": "NVIDIA is driving innovation in autonomous vehicles. Follow us for news and inspiration. ",
+      "companyIndustries": [
+        {
+          "localizedName": "Computer Hardware Manufacturing",
+          "entityUrn": "urn:li:fs_industry:3"
+        }
+      ],
+      "url": "https://www.linkedin.com/showcase/nvidia-drive/",
+      "entityUrn": "urn:li:fs_normalized_company:18094797",
+      "name": "NVIDIA DRIVE",
+      "logo": {
+        "image": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1724885066591/nvidia_drive_logo?e=1741824000&v=beta&t=NmFa6OqOt5szPm3TUOO4p9MgdbXyUFLj55vwylP5Abw",
+                "expiresAt": 1741824000000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1724885066591/nvidia_drive_logo?e=1741824000&v=beta&t=fDPxzuzb_ZrWSE74Q0yOnmfeIgTn9HDMtbw-F1aAPD0",
+                "expiresAt": 1741824000000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1724885066591/nvidia_drive_logo?e=1741824000&v=beta&t=lZxyunZmJiU8bglICgiaSrsVhzrfP2tnTRqrbNT96gA",
+                "expiresAt": 1741824000000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQFh_qk5K5T9CQ/company-logo_"
+          }
+        },
+        "type": "SQUARE_LOGO"
+      },
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "nvidia-drive"
+    },
+    "urn:li:fs_normalized_company:3970082": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:3970082",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:3970082",
+        "following": false,
+        "followingType": "DEFAULT",
+        "followerCount": 42516
+      },
+      "description": "The conference for the era of AI.\n\nGTC is where developers, researchers, business leaders, creators, IT decision-makers, and students gather to learn how to shape our world with the power of AI, computer graphics, data science, and more. Come explore the latest technology and business trends and learn from experts on how AI is profoundly impacting industries and society as a whole.",
+      "companyIndustries": [
+        {
+          "localizedName": "Software Development",
+          "entityUrn": "urn:li:fs_industry:4"
+        }
+      ],
+      "url": "https://www.linkedin.com/showcase/nvidia-gtc/",
+      "entityUrn": "urn:li:fs_normalized_company:3970082",
+      "name": "NVIDIA GTC",
+      "logo": {
+        "image": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1724885623829/nvidia_gtc_logo?e=1741824000&v=beta&t=cOcfCA-YfC6T76tCFE5pkDRELqmuZj4QLQpqlPYZxb8",
+                "expiresAt": 1741824000000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1724885623829/nvidia_gtc_logo?e=1741824000&v=beta&t=JZWY1L0Xq0cy8eCe2cgyhAkIuJlphpcK3eL1tqxUnmQ",
+                "expiresAt": 1741824000000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1724885623829/nvidia_gtc_logo?e=1741824000&v=beta&t=0JGFuOXdJkh5ccrNo9T3Aj0OPmFXrBu_kKpSb4kEtrE",
+                "expiresAt": 1741824000000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQFtDrAI2uw7Lw/company-logo_"
+          }
+        },
+        "type": "SQUARE_LOGO"
+      },
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "nvidia-gtc"
+    },
+    "urn:li:fs_normalized_company:71986325": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:71986325",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:71986325",
+        "following": false,
+        "followingType": "DEFAULT",
+        "followerCount": 63569
+      },
+      "description": "NVIDIA Omniverse\u2122 is a platform of APIs, SDKs, and services that enable developers to easily integrate Universal Scene Description (OpenUSD) and NVIDIA RTX\u2122 rendering technologies into existing software tools and simulation workflows for building AI systems.",
+      "companyIndustries": [
+        {
+          "localizedName": "Software Development",
+          "entityUrn": "urn:li:fs_industry:4"
+        }
+      ],
+      "url": "https://www.linkedin.com/showcase/nvidia-omniverse/",
+      "entityUrn": "urn:li:fs_normalized_company:71986325",
+      "name": "NVIDIA Omniverse",
+      "logo": {
+        "image": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1724885689737/nvidia_omniverse_logo?e=1741824000&v=beta&t=7cucHyRhDuAbO6CI-A3kHKX_gCaTmR3NaFAPmCXDkrs",
+                "expiresAt": 1741824000000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1724885689737/nvidia_omniverse_logo?e=1741824000&v=beta&t=L24qtZiBIfyrDKH7yeYSrik6XtW90M_3Vv8sOb3KcGM",
+                "expiresAt": 1741824000000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1724885689737/nvidia_omniverse_logo?e=1741824000&v=beta&t=ghg43Er9jEZHFuadk5vOmN6_8BRQeN3KoQp0eH3iSSY",
+                "expiresAt": 1741824000000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQGGCmIMFnQE7A/company-logo_"
+          }
+        },
+        "type": "SQUARE_LOGO"
+      },
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "nvidia-omniverse"
+    },
+    "urn:li:fs_normalized_company:100932021": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:100932021",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:100932021",
+        "following": false,
+        "followingType": "DEFAULT",
+        "followerCount": 5003
+      },
+      "description": "1993\ub144 \ucc3d\ub9bd \uc774\ub798 NVIDIA\ub294 \uac00\uc18d \ucef4\ud4e8\ud305 \ubd84\uc57c\ub97c \uc120\ub3c4\ud558\uace0 \uc788\uc2b5\ub2c8\ub2e4. 1999\ub144\uc5d0 GPU\ub97c \ubc1c\uba85\ud558\uc5ec PC \uac8c\uc784 \uc2dc\uc7a5\uc758 \uc131\uc7a5\uc744 \ucd09\ubc1c\ud558\uace0, \ucef4\ud4e8\ud130 \uadf8\ub798\ud53d\uc744 \uc7ac\uc815\uc758\ud588\uc73c\uba70, \ucd5c\uc2e0 AI \uc2dc\ub300\ub97c \uc5f4\uace0, \uc2dc\uc7a5 \uc804\ubc18\uc5d0 \uac78\uccd0 \uc0b0\uc5c5\uc758 \ub514\uc9c0\ud138\ud654\ub97c \ucd09\uc9c4\ud558\uace0 \uc788\uc2b5\ub2c8\ub2e4. NVIDIA\ub294 \ud604\uc7ac, \uc5c5\uacc4\ub97c \uc7ac\ud3b8\ud558\uace0 \uc788\ub294 \ub370\uc774\ud130\uc13c\ud130 \uaddc\ubaa8\uc758 \uc81c\ud488\uc744 \uac16\ucd98 \ud480\uc2a4\ud0dd \ucef4\ud4e8\ud305 \uae30\uc5c5\uc73c\ub85c \uc131\uc7a5\ud558\uc600\uc2b5\ub2c8\ub2e4.\n\nAI \ucef4\ud4e8\ud305 \uae30\uc5c5\uc73c\ub85c\uc11c NVIDIA\ub294 \ubd84\uc57c \ucd5c\uace0\uc758 \uc778\uc7ac\ub97c \ubaa8\uc9d1\ud558\uace0 \uadf8\ub4e4\uc758 \ucc3d\uc758\uc131\uc744 \ud1b5\ud574 \uc0b0\uc5c5\uc744 \ubc1c\uc804\uc2dc\ud0a4\uace0 \uc788\uc2b5\ub2c8\ub2e4.",
+      "companyIndustries": [
+        {
+          "localizedName": "Computer Hardware Manufacturing",
+          "entityUrn": "urn:li:fs_industry:3"
+        }
+      ],
+      "url": "https://www.linkedin.com/showcase/nvidia-korea/",
+      "entityUrn": "urn:li:fs_normalized_company:100932021",
+      "name": "NVIDIA Korea",
+      "logo": {
+        "image": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1732152535129/nvidia_korea_logo?e=1741824000&v=beta&t=rXu26RjRoV25--FxescC0NIePRY6PpwpIdgea_8Tzy4",
+                "expiresAt": 1741824000000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1732152535129/nvidia_korea_logo?e=1741824000&v=beta&t=b2A1S5igTlfkQksLSpWDWYvSpQxYbmmMu1xIl5T8rq0",
+                "expiresAt": 1741824000000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1732152535129/nvidia_korea_logo?e=1741824000&v=beta&t=AfrX0anDLfzgPwsfY64bazZNeF55zov7Ma5B8FYU3AA",
+                "expiresAt": 1741824000000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQHyjYuCLddIBg/company-logo_"
+          }
+        },
+        "type": "SQUARE_LOGO"
+      },
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "nvidia-korea"
+    },
+    "urn:li:fs_normalized_company:103331527": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:103331527",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:103331527",
+        "following": false,
+        "followingType": "DEFAULT",
+        "followerCount": 8838
+      },
+      "description": "Explore and engage with the NVIDIA Inception startup ecosystem, a program that has supported 20,000+ startups.\n\nThe NVIDIA Inception Program is designed to help startups accelerate innovation and growth. Program members get access to the latest developer resources and training, exclusive NVIDIA hardware and software pricing, and exposure to the venture capital community. The program is free and available to tech startups of all stages.",
+      "companyIndustries": [
+        {
+          "localizedName": "Software Development",
+          "entityUrn": "urn:li:fs_industry:4"
+        }
+      ],
+      "url": "https://www.linkedin.com/showcase/nvidia-for-startups/",
+      "entityUrn": "urn:li:fs_normalized_company:103331527",
+      "name": "NVIDIA for Startups",
+      "logo": {
+        "image": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1724882527593/nvidia_for_startups_logo?e=1741824000&v=beta&t=m8q7AhXBLm7uVP27CFKKaxbPP1PKb9ARIb7bEUDTtO0",
+                "expiresAt": 1741824000000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1724882527593/nvidia_for_startups_logo?e=1741824000&v=beta&t=ciqPv2AdvMdYZrhKNwXO1fq5nYKtA-Bn0jUHbDyv5lw",
+                "expiresAt": 1741824000000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1724882527593/nvidia_for_startups_logo?e=1741824000&v=beta&t=8PZDGF1uj-I9X4sY6ZN52HzSue8bXczDf__CoV8LfDA",
+                "expiresAt": 1741824000000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQGlWcs5Ms6EFA/company-logo_"
+          }
+        },
+        "type": "SQUARE_LOGO"
+      },
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "nvidia-for-startups"
+    },
+    "urn:li:fs_normalized_company:18000973": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:18000973",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:18000973",
+        "following": true,
+        "followingType": "FOLLOWING",
+        "followerCount": 145361
+      },
+      "description": "News and information about GPU-accelerated data centers for high performance computing (HPC), supercomputing, AI, deep learning, IT, and AI-accelerated analytics.",
+      "companyIndustries": [
+        {
+          "localizedName": "Computer Hardware Manufacturing",
+          "entityUrn": "urn:li:fs_industry:3"
+        }
+      ],
+      "url": "https://www.linkedin.com/showcase/nvidia-data-center/",
+      "entityUrn": "urn:li:fs_normalized_company:18000973",
+      "name": "NVIDIA Data Center",
+      "logo": {
+        "image": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1724885656269/nvidia_data_center_logo?e=1741824000&v=beta&t=zz-Jay3HgTe_Y1zPip8wMrn42ld8xYFZaPc2QeUFlqo",
+                "expiresAt": 1741824000000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1724885656269/nvidia_data_center_logo?e=1741824000&v=beta&t=-vaP94i-IJbeRTDXEsV65Ox2JdhhTAlXBbGIY7tkgRs",
+                "expiresAt": 1741824000000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1724885656269/nvidia_data_center_logo?e=1741824000&v=beta&t=QuOoFHE1s2ULg8GK26R5TTVLeJ567xYD0alZIurHxxo",
+                "expiresAt": 1741824000000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQFcJ5JtkH93Pw/company-logo_"
+          }
+        },
+        "type": "SQUARE_LOGO"
+      },
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "nvidia-data-center"
+    },
+    "urn:li:fs_normalized_company:3589800": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:3589800",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:3589800",
+        "following": false,
+        "followingType": "DEFAULT",
+        "followerCount": 24381
+      },
+      "description": "NVIDIA virtual GPU solutions deliver visually demanding applications from either on-premise or cloud-based virtualized servers. ",
+      "companyIndustries": [
+        {
+          "localizedName": "Software Development",
+          "entityUrn": "urn:li:fs_industry:4"
+        }
+      ],
+      "url": "https://www.linkedin.com/showcase/nvidia-grid/",
+      "entityUrn": "urn:li:fs_normalized_company:3589800",
+      "name": "NVIDIA Virtual GPU",
+      "logo": {
+        "image": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1724885517021/nvidia_grid_logo?e=1741824000&v=beta&t=lSPJni4grd9bQ2WnscO9txVluwrJbsWHy-4CJ_yBCKQ",
+                "expiresAt": 1741824000000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1724885517021/nvidia_grid_logo?e=1741824000&v=beta&t=ZjyokKwHIskF0PaWsn3H_Ah9kefPsI9pLz42xXwmwYA",
+                "expiresAt": 1741824000000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1724885517021/nvidia_grid_logo?e=1741824000&v=beta&t=530qq4lhDbyxoe1edscvrXRDU6VRTT9psACipxe1lII",
+                "expiresAt": 1741824000000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQHq4vpp4Yg6zQ/company-logo_"
+          }
+        },
+        "type": "SQUARE_LOGO"
+      },
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "nvidia-grid"
+    },
+    "urn:li:fs_normalized_company:99467754": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:99467754",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:99467754",
+        "following": false,
+        "followingType": "DEFAULT",
+        "followerCount": 906
+      },
+      "companyIndustries": [
+        {
+          "localizedName": "Computer Hardware Manufacturing",
+          "entityUrn": "urn:li:fs_industry:3"
+        }
+      ],
+      "url": "https://www.linkedin.com/showcase/nvidia-life/",
+      "entityUrn": "urn:li:fs_normalized_company:99467754",
+      "name": "NVIDIA Life",
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "nvidia-life"
+    },
+    "urn:li:fs_normalized_company:40981439": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:40981439",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:40981439",
+        "following": false,
+        "followingType": "DEFAULT",
+        "followerCount": 14173
+      },
+      "description": "A inven\u00e7\u00e3o da GPU da NVIDIA em 1999 provocou o crescimento do mercado de jogos para PC, redefiniu os gr\u00e1ficos de computador modernos e revolucionou a computa\u00e7\u00e3o paralela. Mais recentemente, o deep learning com GPU acendeu a AI moderna - a pr\u00f3xima era da computa\u00e7\u00e3o - com a GPU atuando como o c\u00e9rebro de computadores, rob\u00f4s e ve\u00edculos aut\u00f4nomos que podem perceber e entender o mundo. Hoje, a NVIDIA \u00e9 cada vez mais conhecida como \"a empresa de computa\u00e7\u00e3o de AI\".",
+      "companyIndustries": [
+        {
+          "localizedName": "Computer Hardware Manufacturing",
+          "entityUrn": "urn:li:fs_industry:3"
+        }
+      ],
+      "url": "https://www.linkedin.com/showcase/nvidiabrasil/",
+      "entityUrn": "urn:li:fs_normalized_company:40981439",
+      "name": "NVIDIA Brasil",
+      "logo": {
+        "image": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1724882363637/nvidiabrasil_logo?e=1741824000&v=beta&t=Gewouf0BQVyTYy5j_S_uNU6vZSPxPsk2xFZHtv50FOw",
+                "expiresAt": 1741824000000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1724882363637/nvidiabrasil_logo?e=1741824000&v=beta&t=gdCMH1UPfkQiIQCk8782MeJRD47p5flWD5sjSpw2N4A",
+                "expiresAt": 1741824000000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1724882363637/nvidiabrasil_logo?e=1741824000&v=beta&t=4blrjWv0EFhwcATRlomumoggPfNvuvLpbqoJrKiWQ-4",
+                "expiresAt": 1741824000000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQEQxQYINJmKww/company-logo_"
+          }
+        },
+        "type": "SQUARE_LOGO"
+      },
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "nvidiabrasil"
+    },
+    "urn:li:fs_normalized_company:6629126": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:6629126",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:6629126",
+        "following": false,
+        "followingType": "DEFAULT",
+        "followerCount": 82383
+      },
+      "description": "Stay up to date with NVIDIA\u2019s upcoming campus events, internship and new college graduate opportunities, as well as the latest buzz!",
+      "companyIndustries": [
+        {
+          "localizedName": "Computer Hardware Manufacturing",
+          "entityUrn": "urn:li:fs_industry:3"
+        }
+      ],
+      "url": "https://www.linkedin.com/showcase/nvidia-university-recruiting/",
+      "entityUrn": "urn:li:fs_normalized_company:6629126",
+      "name": "NVIDIA University Recruiting",
+      "logo": {
+        "image": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1724882210136/nvidia_university_recruiting_logo?e=1741824000&v=beta&t=zqzvEoPrntJuI0Jr07vDoKqIOxdL55ZtFH1gs871Abk",
+                "expiresAt": 1741824000000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1724882210136/nvidia_university_recruiting_logo?e=1741824000&v=beta&t=U_KjnwvovAAY04kK6Q8_9e6nj9cyrwxZwv52w4Mvi4o",
+                "expiresAt": 1741824000000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1724882210136/nvidia_university_recruiting_logo?e=1741824000&v=beta&t=ym-EOXHepumDMla1TQ0jeBjbUsuhCUXib9RqplS-Gr4",
+                "expiresAt": 1741824000000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQGfcJqTVWp7MA/company-logo_"
+          }
+        },
+        "type": "SQUARE_LOGO"
+      },
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "nvidia-university-recruiting"
+    },
+    "urn:li:fs_normalized_company:18000077": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:18000077",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:18000077",
+        "following": true,
+        "followingType": "FOLLOWING",
+        "followerCount": 1145426
+      },
+      "description": "Preventing disease. Building smart cities. Revolutionizing analytics. These are just a few things happening today where AI initiatives are creating real results for businesses.",
+      "companyIndustries": [
+        {
+          "localizedName": "Computer Hardware Manufacturing",
+          "entityUrn": "urn:li:fs_industry:3"
+        }
+      ],
+      "url": "https://www.linkedin.com/showcase/nvidia-ai/",
+      "entityUrn": "urn:li:fs_normalized_company:18000077",
+      "name": "NVIDIA AI",
+      "logo": {
+        "image": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1724882065232/nvidia_ai_logo?e=1741824000&v=beta&t=5cblAQR-YpNJP2D1RH9EKUIfzdCSTOerYK8tsu_mGUw",
+                "expiresAt": 1741824000000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1724882065232/nvidia_ai_logo?e=1741824000&v=beta&t=EPWng3nVuhy1rYJR_526TmLaauLdQUy0iHg2WyoF2Nk",
+                "expiresAt": 1741824000000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1724882065232/nvidia_ai_logo?e=1741824000&v=beta&t=kZl9AeOznnOrm05dTsVfgK1QvimRwdHyT6OrctlKIPU",
+                "expiresAt": 1741824000000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQGe-H392ULJ-Q/company-logo_"
+          }
+        },
+        "type": "SQUARE_LOGO"
+      },
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "nvidia-ai"
+    },
+    "urn:li:fs_normalized_company:90460745": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:90460745",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:90460745",
+        "following": false,
+        "followingType": "DEFAULT",
+        "followerCount": 24189
+      },
+      "description": "Helping physicians, researchers, and innovators harness the power of AI and HPC to do their life's work.",
+      "companyIndustries": [
+        {
+          "localizedName": "Software Development",
+          "entityUrn": "urn:li:fs_industry:4"
+        }
+      ],
+      "url": "https://www.linkedin.com/showcase/nvidia-healthcare/",
+      "entityUrn": "urn:li:fs_normalized_company:90460745",
+      "name": "NVIDIA Healthcare",
+      "logo": {
+        "image": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1724882331933/nvidia_healthcare_logo?e=1741824000&v=beta&t=PjczzK-P1vt8CecPMg9zo4VeUI7zaADGlmcKk04GJ6M",
+                "expiresAt": 1741824000000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1724882331933/nvidia_healthcare_logo?e=1741824000&v=beta&t=jiu0CEbm4Wjjn70VfxTBjR6c7I5Wqo8FU0S0G3dNTog",
+                "expiresAt": 1741824000000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1724882331933/nvidia_healthcare_logo?e=1741824000&v=beta&t=Lybp989rttgIO6ENWFHohpQNMlw-srsBygQb0u4h8Us",
+                "expiresAt": 1741824000000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQGaIJhhNY_F5Q/company-logo_"
+          }
+        },
+        "type": "SQUARE_LOGO"
+      },
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "nvidia-healthcare"
+    },
+    "urn:li:fs_normalized_company:68992010": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:68992010",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:68992010",
+        "following": false,
+        "followingType": "DEFAULT",
+        "followerCount": 33313
+      },
+      "description": "Data center networking is essential in confronting the challenges of modern-day computing. NVIDIA networking delivers accelerated software-defined networking, storage, security, and management services that are turning the data center into one compute unit.",
+      "companyIndustries": [
+        {
+          "localizedName": "Software Development",
+          "entityUrn": "urn:li:fs_industry:4"
+        }
+      ],
+      "url": "https://www.linkedin.com/showcase/nvidianetworking/",
+      "entityUrn": "urn:li:fs_normalized_company:68992010",
+      "name": "NVIDIA Networking",
+      "logo": {
+        "image": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1724882960862/nvidianetworking_logo?e=1741824000&v=beta&t=cJkuEv7dW8QX_uw_tV9eiojwk92NkzUVgzHtL7oWNOA",
+                "expiresAt": 1741824000000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1724882960862/nvidianetworking_logo?e=1741824000&v=beta&t=Ctx4EIEBl2KeKF5_-D_awt7PdNSZYXSpsg2-9y460Ro",
+                "expiresAt": 1741824000000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1724882960862/nvidianetworking_logo?e=1741824000&v=beta&t=tS2FevVVdinmF1WeGSpgklSOyalWeWEc8pUs5RMF69k",
+                "expiresAt": 1741824000000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQEAP6W9QyLqFw/company-logo_"
+          }
+        },
+        "type": "SQUARE_LOGO"
+      },
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "nvidianetworking"
+    },
+    "urn:li:fs_normalized_company:79124990": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:79124990",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:79124990",
+        "following": false,
+        "followingType": "DEFAULT",
+        "followerCount": 12492
+      },
+      "description": "NVIDIA\u2019s invention of the GPU sparked the PC gaming market and went on to reshape trillion-dollar industries and fuel the growth of many others. Today, gaming is the world\u2019s largest entertainment industry. With more than 200 million gamers, NVIDIA GeForce\u00ae is its largest platform. GeForce RTX GPUs, GeForce Experience\u2122 application, and the popular GeForce NOW online gaming service transform everyday PCs into powerful gaming machines. Our invention of RTX graphics technology has reinvented graphics and is a powerful tool for game developers to shatter the status quo.",
+      "companyIndustries": [
+        {
+          "localizedName": "Computer Games",
+          "entityUrn": "urn:li:fs_industry:109"
+        }
+      ],
+      "url": "https://www.linkedin.com/showcase/nvidia-game-developer/",
+      "entityUrn": "urn:li:fs_normalized_company:79124990",
+      "name": "NVIDIA Game Developer",
+      "logo": {
+        "image": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1724882249279/nvidia_game_developer_logo?e=1741824000&v=beta&t=9Sp842VgqJ98XGq7bYW73Sz_La5mTIF9Q19DsbEg6D4",
+                "expiresAt": 1741824000000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1724882249279/nvidia_game_developer_logo?e=1741824000&v=beta&t=VKuoVyAfKLtFnQClAAH0uZas_6OMRfDbZGJ6i9d0Qfk",
+                "expiresAt": 1741824000000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1724882249279/nvidia_game_developer_logo?e=1741824000&v=beta&t=BLLdoDAM0P9WOUgd4BhjK8JTkbNtxbc0v52s8-CDa0E",
+                "expiresAt": 1741824000000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQHygdEBQJW1Wg/company-logo_"
+          }
+        },
+        "type": "SQUARE_LOGO"
+      },
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "nvidia-game-developer"
+    },
+    "urn:li:fs_normalized_company:37553728": {
+      "followingInfo": {
+        "entityUrn": "urn:li:fs_followingInfo:urn:li:company:37553728",
+        "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:37553728",
+        "following": false,
+        "followingType": "DEFAULT",
+        "followerCount": 249588
+      },
+      "description": "Official NVIDIA handle for all things Robotics and Edge AI.",
+      "companyIndustries": [
+        {
+          "localizedName": "Computer Hardware Manufacturing",
+          "entityUrn": "urn:li:fs_industry:3"
+        }
+      ],
+      "url": "https://www.linkedin.com/showcase/nvidiarobotics/",
+      "entityUrn": "urn:li:fs_normalized_company:37553728",
+      "name": "NVIDIA Robotics",
+      "logo": {
+        "image": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1724885393272/nvidiarobotics_logo?e=1741824000&v=beta&t=9P-YXA9mBSji0QWqAySgnJ3OAq4ksoQbJT_IZBOFiZ4",
+                "expiresAt": 1741824000000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1724885393272/nvidiarobotics_logo?e=1741824000&v=beta&t=zCefDDaP0lM1oHbqZSb2snY4AlLRLAfoPqmUedddSP8",
+                "expiresAt": 1741824000000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1724885393272/nvidiarobotics_logo?e=1741824000&v=beta&t=FkOm7Bohb5ARAP3uSOywS-RfInw3UgpjfqxAfyVFKJM",
+                "expiresAt": 1741824000000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQGMUleuQ_kXJA/company-logo_"
+          }
+        },
+        "type": "SQUARE_LOGO"
+      },
+      "paidCompany": false,
+      "showcase": true,
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebCompanyCard",
+      "universalName": "nvidiarobotics"
+    }
+  },
+  "paidCompany": true,
+  "universalName": "nvidia",
+  "viewerPendingAdministrator": false,
+  "companyPageUrl": "http://www.nvidia.com",
+  "viewerConnectedToAdministrator": false,
+  "affiliatedCompanies": [],
+  "dataVersion": -1,
+  "foundedOn": {
+    "year": 1993
+  },
+  "companyType": {
+    "localizedName": "Public Company",
+    "code": "PUBLIC_COMPANY"
+  },
+  "coverPhoto": {
+    "com.linkedin.voyager.common.MediaProcessorImage": {
+      "id": "/AAEAAQAAAAAAAAebAAAAJGMzMjBhOWUwLTMxZmUtNDBjZS1iZjUxLTZkZjE3NzdkZjlmYw.png"
+    }
+  },
+  "associatedHashtags": [
+    "urn:li:fs_contentTopicData:urn:li:hashtag:ai",
+    "urn:li:fs_contentTopicData:urn:li:hashtag:gpu",
+    "urn:li:fs_contentTopicData:urn:li:hashtag:deeplearning"
+  ],
+  "groups": [
+    "urn:li:fs_normalized_group:2159196",
+    "urn:li:fs_normalized_group:139581",
+    "urn:li:fs_normalized_group:1956294"
+  ],
+  "url": "https://www.linkedin.com/company/nvidia",
+  "groupsResolutionResults": {
+    "urn:li:fs_normalized_group:139581": {
+      "groupName": "GPGPU / GPU Users",
+      "entityUrn": "urn:li:fs_normalized_group:139581",
+      "memberCount": 8729,
+      "logo": {
+        "com.linkedin.common.VectorImage": {
+          "artifacts": [
+            {
+              "width": 48,
+              "fileIdentifyingUrlPathSegment": "48x48/group-logo_image-shrink_48x48/0/1631368755544?e=1734516000&v=beta&t=kWU6HDT88j-zIGUwJoDtpH6PEG092jqOKkFJFm5fLD4",
+              "expiresAt": 1734516000000,
+              "height": 48
+            },
+            {
+              "width": 100,
+              "fileIdentifyingUrlPathSegment": "200x200/group-logo_image-shrink_200x200/0/1631368755544?e=1734516000&v=beta&t=GuEOiVEmkjCFLVsVu7gqJ-o213LXum06YkkH1MyVK8g",
+              "expiresAt": 1734516000000,
+              "height": 50
+            },
+            {
+              "width": 100,
+              "fileIdentifyingUrlPathSegment": "400x400/group-logo_image-shrink_400x400/0/1631368755544?e=1734516000&v=beta&t=2iVkvLKBV5BUq27lWe3C6zXiMSdpNEZ8BXssMNinTdo",
+              "expiresAt": 1734516000000,
+              "height": 50
+            },
+            {
+              "width": 92,
+              "fileIdentifyingUrlPathSegment": "92x92/group-logo_image-shrink_92x92/0/1631368755545?e=1734516000&v=beta&t=pfSZVIDnnS2XBfec-QENsMpjcNd5OEp2Z4nQ-XrUGQI",
+              "expiresAt": 1734516000000,
+              "height": 92
+            },
+            {
+              "width": 24,
+              "fileIdentifyingUrlPathSegment": "24x24/group-logo_image-shrink_24x24/0/1631368755545?e=1734516000&v=beta&t=6QxCvOYa0YLjDLFEkPa4ZE-boum7FCzb0ydj6jd10Sk",
+              "expiresAt": 1734516000000,
+              "height": 24
+            },
+            {
+              "width": 72,
+              "fileIdentifyingUrlPathSegment": "72x72/group-logo_image-shrink_72x72/0/1631368755545?e=1734516000&v=beta&t=jrPN6dewjAme31o79OgUo_Ky8J4ihxBb_uPNJXXsdUM",
+              "expiresAt": 1734516000000,
+              "height": 72
+            }
+          ],
+          "rootUrl": "https://media.licdn.com/dms/image/v2/C4D07AQHqg8vkG-T1SA/group-logo_image-shrink_"
+        }
+      },
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebGroupCard",
+      "url": "https://www.linkedin.com/groups?gid=139581"
+    },
+    "urn:li:fs_normalized_group:1956294": {
+      "groupName": "CUDA Developers",
+      "entityUrn": "urn:li:fs_normalized_group:1956294",
+      "memberCount": 9001,
+      "logo": {
+        "com.linkedin.common.VectorImage": {
+          "artifacts": [
+            {
+              "width": 48,
+              "fileIdentifyingUrlPathSegment": "48x48/group-logo_image-shrink_48x48/0/1631410537243?e=1734516000&v=beta&t=RYLHxMmt7OtxQVbZILRxkRW7QWpZKla0cRCSGPscaXc",
+              "expiresAt": 1734516000000,
+              "height": 48
+            },
+            {
+              "width": 100,
+              "fileIdentifyingUrlPathSegment": "200x200/group-logo_image-shrink_200x200/0/1631410537243?e=1734516000&v=beta&t=IuYl-TNbuD8u-HBIE-qw5z-w0w4QKpSgPH_Ya8Ymc-w",
+              "expiresAt": 1734516000000,
+              "height": 50
+            },
+            {
+              "width": 100,
+              "fileIdentifyingUrlPathSegment": "400x400/group-logo_image-shrink_400x400/0/1631410537243?e=1734516000&v=beta&t=pA9xPxwQ2JI1L48gBLhRWgFFj5LacvQym7clA83vWt8",
+              "expiresAt": 1734516000000,
+              "height": 50
+            },
+            {
+              "width": 92,
+              "fileIdentifyingUrlPathSegment": "92x92/group-logo_image-shrink_92x92/0/1631410537243?e=1734516000&v=beta&t=fK7BKJ-VUcsRM56BEF9F2RJnJz_SyJvIogWYmQsLxMc",
+              "expiresAt": 1734516000000,
+              "height": 92
+            },
+            {
+              "width": 24,
+              "fileIdentifyingUrlPathSegment": "24x24/group-logo_image-shrink_24x24/0/1631410537243?e=1734516000&v=beta&t=VIQZrvbmXxxay_p53FaB4Rh2y5oyfo-nukKotKakCKU",
+              "expiresAt": 1734516000000,
+              "height": 24
+            },
+            {
+              "width": 72,
+              "fileIdentifyingUrlPathSegment": "72x72/group-logo_image-shrink_72x72/0/1631410537243?e=1734516000&v=beta&t=TZ0yAzI2O2p4gJrqBVTtoLOAviW1fOee5pzLKpT1OjI",
+              "expiresAt": 1734516000000,
+              "height": 72
+            }
+          ],
+          "rootUrl": "https://media.licdn.com/dms/image/v2/C5607AQE2YF6gl0d4Mg/group-logo_image-shrink_"
+        }
+      },
+      "$recipeType": "com.linkedin.voyager.deco.organization.web.WebGroupCard",
+      "url": "https://www.linkedin.com/groups?gid=1956294"
+    }
+  },
+  "showcasePages": [
+    "urn:li:fs_normalized_company:6629126",
+    "urn:li:fs_normalized_company:42446849",
+    "urn:li:fs_normalized_company:99467754",
+    "urn:li:fs_normalized_company:79124990",
+    "urn:li:fs_normalized_company:3761136",
+    "urn:li:fs_normalized_company:90460745",
+    "urn:li:fs_normalized_company:40981439",
+    "urn:li:fs_normalized_company:103331527",
+    "urn:li:fs_normalized_company:42447607",
+    "urn:li:fs_normalized_company:100932021",
+    "urn:li:fs_normalized_company:3671498",
+    "urn:li:fs_normalized_company:3855497",
+    "urn:li:fs_normalized_company:68992010",
+    "urn:li:fs_normalized_company:18094797",
+    "urn:li:fs_normalized_company:37553728",
+    "urn:li:fs_normalized_company:3970082",
+    "urn:li:fs_normalized_company:3589800",
+    "urn:li:fs_normalized_company:71986325",
+    "urn:li:fs_normalized_company:18000973",
+    "urn:li:fs_normalized_company:18000077"
+  ],
+  "claimableByViewer": false,
+  "jobSearchPageUrl": "https://www.linkedin.com/jobs/search?geoId=92000000&f_C=3608",
+  "showcase": false,
+  "autoGenerated": false,
+  "backgroundCoverImage": {
+    "image": {
+      "com.linkedin.common.VectorImage": {
+        "artifacts": [
+          {
+            "width": 748,
+            "fileIdentifyingUrlPathSegment": "27_750/image-scale_127_750/0/1732064824171/nvidia_cover?e=1734516000&v=beta&t=PCw-MhdAbqSEJxgw2ANBQCaU_KOxVCE7bZUp5AFLpLg",
+            "expiresAt": 1734516000000,
+            "height": 127
+          },
+          {
+            "width": 108,
+            "fileIdentifyingUrlPathSegment": "08_640/image-scale_108_640/0/1732064824171/nvidia_cover?e=1734516000&v=beta&t=hgq-rr2yjZCdDNkG3o3b_CnBdLQVut_jzRJtmEwPbI0",
+            "expiresAt": 1734516000000,
+            "height": 18
+          },
+          {
+            "width": 1128,
+            "fileIdentifyingUrlPathSegment": "91_1128/image-scale_191_1128/0/1732064824180/nvidia_cover?e=1734516000&v=beta&t=nu3cEtgQ6MVA7MvOHGGmHbt_ND1qRfVv2euQnYUYmFo",
+            "expiresAt": 1734516000000,
+            "height": 191
+          }
+        ],
+        "rootUrl": "https://media.licdn.com/dms/image/v2/D563DAQFBJCfjULlukg/image-scale_1"
+      }
+    },
+    "cropInfo": {
+      "x": 0,
+      "width": 1128,
+      "y": 0,
+      "height": 191
+    }
+  }
+}

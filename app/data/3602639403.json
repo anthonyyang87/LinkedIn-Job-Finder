@@ -1,0 +1,548 @@
+{
+  "dashEntityUrn": "urn:li:fsd_jobPosting:3602639403",
+  "companyDetails": {
+    "com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany": {
+      "companyResolutionResult": {
+        "entityUrn": "urn:li:fs_normalized_company:3608",
+        "name": "NVIDIA",
+        "logo": {
+          "image": {
+            "com.linkedin.common.VectorImage": {
+              "artifacts": [
+                {
+                  "width": 200,
+                  "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1724879902635/nvidia_logo?e=1741824000&v=beta&t=zn58qcrNm3CT0Bg4-MTmkdQ6NBi32F5Ewk8lKmERVDc",
+                  "expiresAt": 1741824000000,
+                  "height": 200
+                },
+                {
+                  "width": 100,
+                  "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1724879902635/nvidia_logo?e=1741824000&v=beta&t=zU7sEdhBhuC4S1FiUy8DVchb9fyfHyLY-J3hhR86Q3k",
+                  "expiresAt": 1741824000000,
+                  "height": 100
+                },
+                {
+                  "width": 400,
+                  "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1724879902635/nvidia_logo?e=1741824000&v=beta&t=CrIn9V9GIPCgszJxnjIJqopAJSVzC33f2Rbuyt0ti3c",
+                  "expiresAt": 1741824000000,
+                  "height": 400
+                }
+              ],
+              "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQH7YExLMK6L2Q/company-logo_"
+            }
+          },
+          "type": "SQUARE_LOGO"
+        },
+        "$recipeType": "com.linkedin.voyager.deco.organization.shared.WebCompactCompany",
+        "universalName": "nvidia",
+        "url": "https://www.linkedin.com/company/nvidia"
+      },
+      "company": "urn:li:fs_normalized_company:3608",
+      "$recipeType": "com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany"
+    }
+  },
+  "jobState": "LISTED",
+  "description": {
+    "attributes": [
+      {
+        "start": 87,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 88,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 0,
+        "length": 89,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 608,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 609,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 632,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 633,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 610,
+        "length": 24,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 634,
+        "length": 142,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 776,
+        "length": 239,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 1015,
+        "length": 144,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 1352,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 1353,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 1159,
+        "length": 195,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 634,
+        "length": 720,
+        "type": {
+          "com.linkedin.pemberly.text.List": {
+            "ordered": false
+          }
+        },
+        "attributeKindUnion": {
+          "list": {
+            "ordered": false
+          }
+        }
+      },
+      {
+        "start": 1373,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 1374,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 1354,
+        "length": 21,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 1375,
+        "length": 148,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 1523,
+        "length": 58,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 1581,
+        "length": 94,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 1675,
+        "length": 97,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 1772,
+        "length": 62,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 1834,
+        "length": 62,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 2010,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 2011,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 1896,
+        "length": 116,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 1375,
+        "length": 637,
+        "type": {
+          "com.linkedin.pemberly.text.List": {
+            "ordered": false
+          }
+        },
+        "attributeKindUnion": {
+          "list": {
+            "ordered": false
+          }
+        }
+      },
+      {
+        "start": 2044,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 2045,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 2012,
+        "length": 34,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 2046,
+        "length": 166,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 2254,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 2255,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 2212,
+        "length": 44,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 2046,
+        "length": 210,
+        "type": {
+          "com.linkedin.pemberly.text.List": {
+            "ordered": false
+          }
+        },
+        "attributeKindUnion": {
+          "list": {
+            "ordered": false
+          }
+        }
+      },
+      {
+        "start": 2739,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 2740,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 2911,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 2912,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 3015,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 3016,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 2965,
+        "length": 52,
+        "type": {
+          "com.linkedin.pemberly.text.Italic": {}
+        },
+        "attributeKindUnion": {
+          "italic": {}
+        }
+      },
+      {
+        "start": 3466,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 3467,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 3477,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 3478,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      }
+    ],
+    "text": "We\u2019re currently seeking a Senior Developer Technology Engineer, Artificial Intelligence\n\nWould you enjoy researching parallel algorithms to accelerate AI workloads on advanced computer architectures? Is it rewarding to investigate, find, and eliminate system bottlenecks to achieve the best possible performance of computer hardware? Could you be thrilled about an opportunity to partner with the Developer community, working at the forefront of technology breakthroughs that contribute to the success of an industry leader like NVIDIA? If so, the Developer Technology Team invites you to consider this role.\n\nWhat You Will Be Doing\n\nIn this position, you will research and develop techniques to GPU accelerate workloads in deep learning, machine learning or other AI domains.Work directly with other technical experts in their fields (industry and academia) to perform in-depth analysis and optimization of complex AI and HPC algorithms to ensure the best possible AI solutions on modern CPU and GPU architectures.Publish and present discovered optimization techniques in developer blogs or relevant conferences to engage and educate the Developer community.Influence the design of next-generation hardware architectures, software, and programming models in collaboration with research, hardware, system software, libraries, and tools teams at NVIDIA.\n\nWhat We Need To See\n\nA Masters degree in Computer Science, Computer Engineering, or related computationally focused science degree (or additional equivalent experience).You have 8+ years of relevant work experience or research.Programming fluency in C/C++ with a deep understanding of algorithms and software development.A background that includes parallel programming, e.g., CUDA, OpenACC, OpenMP, MPI, pthreads, etc.Hands on experience doing low-level performance optimizations.In-depth expertise with CPU and GPU architecture fundamentals.Good communication and organization skills, with a logical approach to problem solving, and prioritization skills.\n\nWays To Stand Out From The Crowd\n\nExpertise in parallelization and performance optimization of Deep Learning models arising from Natural Language Processing, Computer Vision, Recommender Systems, etc.Excellent understanding of linear algebra.\n\nNVIDIA is widely considered to be one of the technology world\u2019s most desirable employers. We have some of the most forward-thinking and hardworking people in the world working for us. Are you a creative and autonomous computer scientist with a genuine passion for parallel computing? If so, we want to hear from you. Come, join our AI Compute DevTech team and help build the real-time, cost-effective computing platform driving our success in this exciting and quickly growing field.\n\nThe base salary range is 180,000 USD - 339,250 USD. Your base salary will be determined based on your location, experience, and the pay of employees in similar positions.\n\nYou will also be eligible for equity and benefits .  NVIDIA accepts applications on an ongoing basis. \n\nNVIDIA is committed to fostering a diverse work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.\n\nJR1966268\n\n"
+  },
+  "title": "Senior Developer Technology Engineer - AI",
+  "entityUrn": "urn:li:fs_normalized_jobPosting:3602639403",
+  "workRemoteAllowed": false,
+  "applyMethod": {
+    "com.linkedin.voyager.jobs.OffsiteApply": {
+      "applyStartersPreferenceVoid": false,
+      "companyApplyUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Developer-Technology-Engineer---AI_JR1966268?source=jobboardlinkedin",
+      "inPageOffsiteApply": false
+    }
+  },
+  "talentHubJob": false,
+  "formattedLocation": "Santa Clara, CA",
+  "workplaceTypes": [],
+  "listedAt": 1733825316000,
+  "jobPostingId": 3602639403,
+  "$recipeType": "com.linkedin.voyager.deco.jobs.web.shared.WebLightJobPosting"
+}
