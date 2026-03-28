@@ -9,6 +9,7 @@ import asyncio
 import threading
 import configparser
 from dotenv import load_dotenv
+from report_generator import generate_html_report, extract_latest_recommendations
 
 #read from .env file
 load_dotenv()
@@ -97,20 +98,46 @@ def write_to_text_file(data, filename):
     print(f"Data written to {filename}")
 
 def main():
-    
+    skip_fetch = "--skip-fetch" in sys.argv
+    from_conversations = "--from-conversations" in sys.argv
+
+    search_params = {
+        "Keywords": config['JOB_PARAMETERS']['keywords'],
+        "Location": config['JOB_PARAMETERS']['location_name'],
+        "Distance (miles)": config['JOB_PARAMETERS']['distance'],
+        "Companies": config['JOB_PARAMETERS']['companies_literal'],
+        "Years of Experience": config['USER_PARAMETERS']['years_of_experience'],
+        "Education": f"{config['USER_PARAMETERS']['education_level']} in {config['USER_PARAMETERS']['education_field']}",
+        "Minimum Salary": f"${int(config['USER_PARAMETERS']['minimum_salary']):,}",
+    }
+
+    if from_conversations:
+        conversations_path = "../data/conversations/conversations.txt"
+        response_text = extract_latest_recommendations(conversations_path)
+        if not response_text:
+            print("No AI responses found in conversations.txt")
+            return 1
+        report_filename = time.strftime("%Y-%m-%d") + "_recommended_jobs.html"
+        report_path = "../data/results/" + report_filename
+        generate_html_report(response_text, report_path, search_params)
+        return
+
     #configure gemini
     genai.configure(api_key=GEMINI_API_KEY)
     model = genai.GenerativeModel(MODEL_NAME)
 
-    #run fetch_jobs.py
-    print("Running fetch_jobs.py.....Please wait a moment to fetch jobs.....")
-    command = ["python", "fetch_jobs.py"]
-    result = stream_with_subprocess_run(command)
-    if result.returncode == 0:
-        print("fetch_jobs.py ran successfully")
+    if skip_fetch:
+        print("Skipping fetch_jobs.py.....Using existing job data.....")
     else:
-        print("fetch_jobs.py failed.....exiting program")
-        return 1
+        #run fetch_jobs.py
+        print("Running fetch_jobs.py.....Please wait a moment to fetch jobs.....")
+        command = ["python", "fetch_jobs.py"]
+        result = stream_with_subprocess_run(command)
+        if result.returncode == 0:
+            print("fetch_jobs.py ran successfully")
+        else:
+            print("fetch_jobs.py failed.....exiting program")
+            return 1
 
     print("\n\n\n****************Uploading User Files, Forming Queries and Generating Responses Using AI****************\n\n\n")
     #read user resume
@@ -130,46 +157,50 @@ def main():
     jobs = genai.upload_file(jobs_summary_text_path)
 
     conversations_path = "../data/conversations/conversations.txt"
-    
-    
+
     print("Files uploaded: ")
     for f in genai.list_files():
         print(" ", f.display_name)
-    
-    query = f"Tell me, what are the job titles of the jobs_search_summary?Let me give you a hint, you can find 'job_title' and the assigned value. I also want you to tell me the company_name, and job_url of each job title. By summarizing the job_description, also list the skill sets, experience that the candidate must acquire to succeed in this job. If salary range is mentioned, please also include it in the summary. To summarize my prompt, I want you to list the job_title, company_name, job_url, job_description, skill sets, experience, and salary range of each job in the jobs_search_summary."
 
-    print("*******************User Query********************\n", query)
-    response = model.generate_content([query, jobs])
+    try:
+        query = f"Tell me, what are the job titles of the jobs_search_summary?Let me give you a hint, you can find 'job_title' and the assigned value. I also want you to tell me the company_name, and job_url of each job title. By summarizing the job_description, also list the skill sets, experience that the candidate must acquire to succeed in this job. If salary range is mentioned, please also include it in the summary. To summarize my prompt, I want you to list the job_title, company_name, job_url, job_description, skill sets, experience, and salary range of each job in the jobs_search_summary."
 
-    print("*******************AI response********************\n")
-    print(response.text)
+        print("*******************User Query********************\n", query)
+        response = model.generate_content([query, jobs])
 
-    #write to text file also inlucde current time
-    
-    write_to_text_file("User Query: \n" + query, conversations_path)
-    write_to_text_file("AI Response: \n" + response.text, conversations_path)
+        print("*******************AI response********************\n")
+        print(response.text)
 
-    query = f"Now you have a summary of the jobs_search_summary. Can you tell me which job is the best fit for me? I have {YEARS_OF_EXPERIENCE} years of experience, {EDUCATION_LEVEL} in {EDUCATION_FIELD}, and I am looking for a job with a minimum salary of {MINIMUM_SALARY}. Please assess the following text and take into consideration: {resume_text}. I want you pick the top 10 jobs from the list you generated earlier. Please also provide the job_url of each job."
+        #write to text file also inlucde current time
 
-    print("*******************User Query********************\n", query)
-    response = model.generate_content([query, jobs])
+        write_to_text_file("User Query: \n" + query, conversations_path)
+        write_to_text_file("AI Response: \n" + response.text, conversations_path)
 
-    print("*******************AI response********************\n")
-    print(response.text)
+        query = f"Now you have a summary of the jobs_search_summary. Can you tell me which job is the best fit for me? I have {YEARS_OF_EXPERIENCE} years of experience, {EDUCATION_LEVEL} in {EDUCATION_FIELD}, and I am looking for a job with a minimum salary of {MINIMUM_SALARY}. Please assess the following text and take into consideration: {resume_text}. I want you pick the top 10 jobs from the list you generated earlier. Please also provide the job_url of each job."
 
-    write_to_text_file("User Query: \n" + query, conversations_path)
-    write_to_text_file("AI Response: \n" + response.text, conversations_path)
+        print("*******************User Query********************\n", query)
+        response = model.generate_content([query, jobs])
 
-    print("\n\n****************End of Conversation****************\n\n")
+        print("*******************AI response********************\n")
+        print(response.text)
 
-    #delete all files
-    print("\n\nDeleting all uploaded files.....\n\n")
-    for f in genai.list_files():
-        print("Deleting file: ", f.display_name)
-        f.delete()
-    print("All files deleted!")
+        write_to_text_file("User Query: \n" + query, conversations_path)
+        write_to_text_file("AI Response: \n" + response.text, conversations_path)
 
-    print(f"\n\n\nJob recommendations completed successfully. Powered by https://github.com/tomquirk/linkedin-api and {MODEL_NAME}. Thank you  and have a great day!\n\n\n")
+        report_filename = time.strftime("%Y-%m-%d") + "_recommended_jobs.html"
+        report_path = "../data/results/" + report_filename
+        generate_html_report(response.text, report_path, search_params)
+
+        print("\n\n****************End of Conversation****************\n\n")
+        print(f"\n\n\nJob recommendations completed successfully. Powered by https://github.com/tomquirk/linkedin-api and {MODEL_NAME}. Thank you  and have a great day!\n\n\n")
+
+    finally:
+        #delete all files
+        print("\n\nDeleting all uploaded files.....\n\n")
+        for f in genai.list_files():
+            print("Deleting file: ", f.display_name)
+            f.delete()
+        print("All files deleted!")
 
 
 if __name__ == "__main__":

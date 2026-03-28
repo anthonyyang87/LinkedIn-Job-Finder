@@ -2,4 +2,6 @@
 /app/data/companies/*
 /app/data/jobs/*
 /app/data/conversations/*
+/app/data/results/*
+/app/resources/*
 /test/*

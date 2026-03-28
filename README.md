@@ -31,18 +31,18 @@ This starter kit uses Gemini as a baseline. To retrieve an API access key, pleas
 
 Navigate to the /app folder and open **config.ini**  There, you can edit user defined parameters for  search queries, user preferences, and the AI Model you want to use. For demonstration purposes, model **gemini-2.0-flash-exp** is used. 
 
-Keep in mind, search results depend on **[JOB_PARAMETERS]**, and it might take time to find a sweet spot. 
+Keep in mind, search results depend on **[JOB_PARAMETERS]**, and it might take time to find a sweet spot.
 * keywords is the title of the role you are interested in
 * location_name only works with the city name (Example: Use "New York" instead of "New York, NY")
 * distance is in miles
 * list_at is defined in seconds
 * companies_literal is a string of companies seperated by commas
 
-To let AI better understand your experience and preference, please upload your resume to **/app/resources/**  and edit the other **[USER_PARAMETERS]**  
+To let AI better understand your experience and preference, please upload your resume to **/app/resources/**  and edit the other **[USER_PARAMETERS]**
 
-Finally, update **[AI_PARAMETERS]** with the desired model. In gemini, common models that are **FREE** to test include:  
+Finally, update **[AI_PARAMETERS]** with the desired model. In gemini, common models that are **FREE** to test include:
 * gemini-1.5-flash
-* gemini-2.0-flash-exp (Note that this is the preferred model due to the large requests we are making)
+* gemini-2.0-flash
 * gemini-1.5-pro
 
 Example: 
@@ -56,23 +56,37 @@ Example:
 
 ### Running the Script and Collecting Results
 
-Once you are done configuring the .env and config.ini, it's show time! 
+Once you are done configuring the .env and config.ini, it's show time!
 
-Navigate to /app/modules/ and run:  
+Navigate to /app/modules/ and run:
 `python main.py`
 
-Depending on your setup, you might have use python3 or python312 to run. 
+Depending on your setup, you might have use python3 or python312 to run.
 
 ![Waiting for Job Search](images/waiting_for_job_search.png)
 
 Depending on the traffic, and the search parameters, it might take a while for job to return.  For the parameters specified above, it takes ~5 minutes for the job to complete.
 
-The flow is described as 
+The flow is described as
 
-* Job search 
+* Job search
 * Parse and Extract Relevant Job information (Not all information is useful to AI, such as the CSS layout of the job listing)
-* Prompt AI to Analyze and Summarize JoB
+* Prompt AI to Analyze and Summarize Job
 * Prompt AI To Fetch Top Jobs that Matches User Resume and Preference
+* Generate an HTML report saved to `app/data/results/`
+
+#### Command Line Arguments
+
+| Argument | Description |
+|---|---|
+| *(none)* | Full run — fetch jobs from LinkedIn, run AI analysis, generate HTML report |
+| `--skip-fetch` | Skip LinkedIn fetch, reuse existing job data, re-run AI analysis |
+| `--from-conversations` | Skip LinkedIn and AI entirely — generate HTML report from the latest saved conversation |
+
+Example:
+```
+python main.py --from-conversations
+```
 
 Sample Output from Command Prompt/Terminal:  
 
@@ -99,7 +113,12 @@ Sample Output from Command Prompt/Terminal:
 
 ### Common Debugging Strategies
 
-* If the script haves trouble fetching jobs it could be due to - mispelling of *location* (keep in mind that only use city name), company name typo, or the *listed_at* value being too large. Please start with smaller *listed_at/distance* numbers and a few companies for better results. 
+* If the script haves trouble fetching jobs it could be due to - mispelling of *location* (keep in mind that only use city name), company name typo, or the *listed_at* value being too large. Please start with smaller *listed_at/distance* numbers and a few companies for better results.
+* If you see a `LinkedinSessionExpired` error, your cached session cookie has expired. Delete it and re-run:
+  ```
+  rm -rf ~/.linkedin_api/cookies/
+  ```
+  The script will re-authenticate using your `.env` credentials on the next run. If it fails again, try logging into LinkedIn in a browser first to clear any security challenges.
 
 
 ## Resources
